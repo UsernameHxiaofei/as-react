@@ -1,0 +1,74 @@
+// color
+@primary-color: #ff571a;
+@primary-color2: #ff571a1a;
+@black : #000;
+@white: #fff;
+@grey: #fafafa;
+@disabled-color : fade(#000, 25%);
+
+// text
+@text-color: rgba(0, 0, 0, 0.65);
+@text-color-secondary : fade(@black, 45%);
+@line-height-base : 1.5;
+
+// font
+@font-size-base: 14px;
+@font-size-sm : 12px;
+@font-variant-base : tabular-nums;
+@font-size-lg : @font-size-base + 2px;
+
+// background
+@component-background : #fff;
+@disabled-bg : @background-color-base;
+@background-color-light : hsv(0, 0, 98%);
+@background-color-base : hsv(0, 0, 96%);
+@hover-background-color: @primary-color2;
+
+// box-shadow
+@shadow-color : rgba(0, 0, 0, .15);
+@shadow-1-down : 0 2px 8px @shadow-color;
+@box-shadow-base: @shadow-1-down;
+
+// border
+@border-width-base : 1px;
+@border-style-base : solid;
+@border-color-base : hsv(0, 0, 85%);
+@border-color-split : hsv(0, 0, 91%);
+@border-radius-base : 4px;
+@border-radius-sm : 2px;
+
+@border-width-base : 1px;
+
+// outline
+@outline-color : @primary-color;
+@outline-blur-size : 0;
+@outline-width : 2px;
+
+// padding
+@control-padding-horizontal: 12px;
+@control-padding-horizontal-sm: 8px;
+
+// animation
+@ease-in-back : cubic-bezier(0.71, -0.46, 0.88, 0.6);
+@ease-out-back : cubic-bezier(0.12, 0.4, 0.29, 1.46);
+@ease-in-out : cubic-bezier(0.645, 0.045, 0.355, 1);
+
+// z-index
+@zindex-dropdown : 1050;
+
+// input
+@input-disabled-bg : @disabled-bg;
+@input-height-base : 32px;
+@input-height-sm : 24px;
+@input-height-lg : 40px;
+@input-outline-offset : 0 0;
+@input-hover-border-color : @primary-color;
+@input-placeholder-color : hsv(0, 0, 75%);
+
+// tag
+@tag-default-color: @text-color;
+@tag-default-bg: @background-color-light;
+
+// icon
+@icon-color-hover : fade(@black, 75%);
+@icon-color-loading: rgba(0, 0, 0, 0.45);

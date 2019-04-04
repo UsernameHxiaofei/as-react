@@ -1,0 +1,81 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin:0;
+  padding:0;
+}
+
+#root {
+  padding: 24px;
+}
+
+.common-search {
+  border: 1px solid #e8e8e8;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.common-pagination {
+  text-align: center;
+}
+
+.custom-ant-table .ant-table-pagination.ant-pagination {
+  text-align: center;
+  float: none;
+}
+
+/** 查询按钮 */
+.button_query {
+  color: #fff;
+  background-color: #352C74;
+  border-color: #352C74;
+}
+
+.button_query:active {
+  color: #fff;
+  background-color: #352C74;
+  border-color: #352C74;
+}
+
+.button_query:hover,
+.button_query:focus {
+  color: #fff;
+  background-color: #352C74;
+  border-color: #352C74;
+}
+
+.col_label {
+  margin-right: 8px;
+  width: 123px;
+  text-align: right;
+}
+
+.order_label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px
+}
+
+a {
+  color: #352C74;
+}
+
+a:hover {
+  color: #352C74;
+}
+
+a:active {
+  color: #352C74;
+}
+/* 解决圣诞彩蛋问题 */
+.ant-btn.ant-btn-primary.christmas:before{
+  display: none!important;
+}
+
+/* 页面标题 */
+.list-page_title {
+  font-size: 20px;
+  color: #1a1a1a;
+  margin-bottom: 24px
+}

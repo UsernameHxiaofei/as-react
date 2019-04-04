@@ -1,0 +1,10 @@
+/** ant-table：分页居中 */
+.custom-ant-table .ant-table-pagination.ant-pagination {
+  text-align: center;
+  float: none;
+}
+/** 因为改了a标签hover颜色，关联到表格行hover颜色，但是很丑，所以作特殊处理  */
+/** 颜色和header（size='big'）的背景色一样 */
+.ant-table-tbody>tr.ant-table-row-hover td {
+  background: #fafafa
+}

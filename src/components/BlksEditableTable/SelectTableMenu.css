@@ -1,0 +1,9 @@
+.blks-component-editable-table-search-dropdown .ant-select-dropdown-menu-item {
+  padding: 0;
+}
+.blks-component-editable-table-search-dropdown .ant-select-dropdown-menu-item-group-list{
+    margin-top:21px;
+}
+.blks-component-editable-table-search-dropdown .ant-select-dropdown-menu-item-group-title{
+    padding:0;
+}

@@ -1,0 +1,63 @@
+@import '../BlksEditableTable/SelectTableMenu.css';
+@import '../BlksEditableTable/EditableTable.css';
+
+
+/* LabelItem */
+.label-item {
+  line-height: 32px;
+}
+
+.label-item__label {
+  float: left;
+  text-align: right;
+}
+
+
+/* TextButton */
+.text-button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+}
+
+.text-button:hover {
+  opacity: .7;
+}
+
+.text-button+.text-button {
+  margin-left: 10px;
+}
+
+.text-button--primary {
+  color: #ff571a;
+}
+
+.text-button--success {
+  color: #4CAE4C;
+}
+
+.text-button--danger {
+  color: #ff4d4f;
+}
+
+/* CountTable */
+.count-table__title {
+  border: 1px solid #e8e8e8;
+  border-bottom: none;
+}
+
+.count-table__title > span {
+  padding: 0 10px;
+  border-right: 3px solid #d7d7d7;
+}
+
+.form-info-style {
+  padding: 16px;
+  background: #fafafa;
+  border: 1px solid #bfbfbf;
+  border-radius: 6px;
+  margin-bottom: 32px;
+}
